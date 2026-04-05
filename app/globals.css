@@ -1,0 +1,13 @@
+@import url('https://cdn.jsdelivr.net/gh/Jihwan-Suh/PyeojinGothic/CSS/pyeojin-font.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'PyeojinGothic', sans-serif;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
